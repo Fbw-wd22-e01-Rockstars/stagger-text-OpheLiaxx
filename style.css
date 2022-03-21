@@ -17,9 +17,8 @@
     align-items: flex-start;
     margin: 1rem;
     padding: 2rem;
-    overflow: hidden;
-
 }
+
 
 
 .top {
@@ -32,38 +31,20 @@
        
 }
 
-.first {
+
+.first, .second, .third{
     background-color: lightblue;
     opacity: 0.7;
     border-radius: 10px;
-    width: 600px;
     margin-top: 1rem;
     padding: 5px;
+    width: fit-content;
     transform: translateX(-1000px);
     transition: all 1s;
+    overflow: hidden;
+    
 }
 
-.second {
-    background-color: lightblue;
-    opacity: 0.7;
-    border-radius: 10px;
-    width: 450px;
-    margin-top: 1rem;
-    padding: 5px;
-    transform: translateX(-1000px);
-    transition: all 1s;
-}
-
-.third {
-    background-color: lightblue;
-    opacity: 0.7;
-    border-radius: 10px;
-    width: 300px;
-    margin-top: 1rem;
-    padding: 5px;
-    transform: translateX(-1000px);
-    transition: all 1s;
-}
 
 div:hover .first {
    transform: translateX(0px);
